@@ -80,7 +80,7 @@ WebApp::Application.configure do
 
   # Required for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'ccdurkin.herokuapp.com' }
 
   config.paperclip_defaults = {
   :storage => :s3,
